@@ -1,0 +1,321 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif; }
+
+a.button {
+  transition: .5s ease;
+  border-radius: 7px;
+  background: #F56962;
+  color: white !important;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none; }
+  a.button:hover {
+    background: #fa5047; }
+
+a.button-light {
+  transition: .5s ease;
+  border-radius: 7px;
+  border: 1px solid #F56962;
+  color: #F56962 !important;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-decoration: none; }
+  a.button-light:hover {
+    background: #F56962;
+    color: white !important; }
+
+span.heading {
+  font-weight: 500;
+  font-size: 1.8rem; }
+
+header {
+  background: white;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0px -8px 12px 0px  #33333D; }
+  header .row {
+    align-content: center;
+    justify-content: space-between; }
+    header .row .bar-menu {
+      display: none; }
+    header .row nav {
+      display: flex;
+      align-items: center;
+      min-height: 50px; }
+      header .row nav a {
+        color: #544E7A;
+        text-decoration: none;
+        margin-left: 25px; }
+
+@media only screen and (max-width: 1200px) {
+  header #menu {
+    width: 100%;
+    list-style: none;
+    position: absolute;
+    top: 55px; }
+    header #menu li {
+      cursor: pointer;
+      padding: 10px 0;
+      border-bottom: 1px solid gray;
+      width: 100%;
+      width: 100%;
+      font-size: 1.1rem;
+      background: #EFEFF6;
+      width: 100%;
+      text-align: center; }
+      header #menu li a {
+        color: #544E7A !important;
+        text-decoration: none; }
+  header .bar-menu {
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: inline-block !important; }
+  header nav {
+    display: none !important; } }
+#welcome {
+  background: #EFEFF6; }
+  #welcome .line {
+    width: 89%;
+    background: white;
+    height: 3px; }
+    #welcome .line .orange {
+      height: 100%;
+      width: 33.33%;
+      background: orange; }
+  #welcome .left, #welcome .right {
+    transition: 0.3s ease;
+    cursor: pointer;
+    background: white;
+    padding: 10px 20px; }
+    #welcome .left:hover, #welcome .right:hover {
+      color: orange; }
+  #welcome .col-12 .lesson-info {
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    background: white;
+    padding: 10px; }
+    #welcome .col-12 .lesson-info:hover {
+      box-shadow: 0px 0px 20px 0px gray; }
+    #welcome .col-12 .lesson-info .details .line {
+      margin-top: 20px;
+      width: 100%;
+      background: #EFEFF6;
+      height: 3px; }
+      #welcome .col-12 .lesson-info .details .line .orange {
+        width: 70%;
+        height: 100%;
+        background: orange; }
+    #welcome .col-12 .lesson-info .details h5 {
+      line-height: 2rem; }
+    #welcome .col-12 .lesson-info span {
+      margin-bottom: 10px;
+      font-size: 0.9rem;
+      color: gray; }
+    #welcome .col-12 .lesson-info .img {
+      margin-right: 15px; }
+      #welcome .col-12 .lesson-info .img img {
+        border-radius: 8px; }
+
+@media only screen and (max-width: 1200px) {
+  #welcome .row.arrows {
+    display: none; } }
+#recommend .col-12 .items {
+  box-shadow: 0px 0px 8px 0px #bbbbbb;
+  transition: .3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  background: white;
+  padding: 15px; }
+  #recommend .col-12 .items:hover {
+    box-shadow: 5px 5px 12px 5px gray; }
+  #recommend .col-12 .items span.line {
+    margin-right: 10px;
+    color: #33333D;
+    text-decoration: line-through; }
+  #recommend .col-12 .items span.bold {
+    font-weight: bold;
+    color: #F68C20; }
+  #recommend .col-12 .items img.first {
+    width: 100%;
+    border-radius: 5px; }
+  #recommend .col-12 .items ul {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around; }
+    #recommend .col-12 .items ul li {
+      color: #33333D;
+      font-size: .9rem; }
+#recommend span.design {
+  cursor: pointer;
+  font-size: .9rem; }
+  #recommend span.design img {
+    width: 1rem; }
+
+#carousel {
+  background: #EFEFF6; }
+  #carousel .line {
+    width: 89%;
+    background: white;
+    height: 3px; }
+    #carousel .line .orange {
+      height: 100%;
+      width: 33.33%;
+      background: orange; }
+  #carousel .left, #carousel .right {
+    transition: 0.3s ease;
+    cursor: pointer;
+    background: white;
+    padding: 10px 20px; }
+    #carousel .left:hover, #carousel .right:hover {
+      color: orange; }
+  #carousel .carousel-wrapper {
+    overflow: hidden; }
+  #carousel .carousel {
+    position: relative;
+    transition: .5s ease;
+    left: 5px; }
+  #carousel .col-12 .items {
+    transition: .3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    padding: 15px; }
+    #carousel .col-12 .items:hover {
+      box-shadow: 5px 5px 12px 5px gray; }
+    #carousel .col-12 .items span.line {
+      margin-right: 10px;
+      color: #33333D;
+      text-decoration: line-through; }
+    #carousel .col-12 .items span.bold {
+      font-weight: bold;
+      color: #F68C20; }
+    #carousel .col-12 .items img.first {
+      width: 100%;
+      border-radius: 5px; }
+    #carousel .col-12 .items ul {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      list-style: none;
+      justify-content: space-around; }
+      #carousel .col-12 .items ul li {
+        color: #33333D;
+        font-size: .9rem; }
+
+@media only screen and (max-width: 1200px) {
+  #carousel .row.arrows {
+    display: none; } }
+#choiseFav .col-12 .box {
+  cursor: pointer;
+  transition: 0.3s ease;
+  padding: 20px 15px;
+  color: #5F5982; }
+  #choiseFav .col-12 .box:hover {
+    transform: scale(1.1); }
+  #choiseFav .col-12 .box img {
+    width: 58px;
+    height: 58px; }
+  #choiseFav .col-12 .box h5 {
+    margin-top: 20px; }
+  #choiseFav .col-12 .box p {
+    font-size: .9rem;
+    line-height: 30px; }
+
+#onlineCoach {
+  background: #FEF0EF; }
+  #onlineCoach p {
+    color: #5F5982; }
+
+#students {
+  background: #FEF0EF; }
+  #students .line {
+    width: 89%;
+    background: white;
+    height: 3px; }
+    #students .line .orange {
+      height: 100%;
+      width: 33.33%;
+      background: orange; }
+  #students .left, #students .right {
+    transition: 0.3s ease;
+    cursor: pointer;
+    background: white;
+    padding: 10px 20px; }
+    #students .left:hover, #students .right:hover {
+      color: orange; }
+  #students .carousel-wrapper {
+    overflow: hidden; }
+  #students .carousel {
+    position: relative;
+    transition: .5s ease;
+    left: 5px; }
+  #students .col-12 .items {
+    transition: .3s ease;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    padding: 15px; }
+    #students .col-12 .items:hover {
+      box-shadow: 5px 5px 12px 5px gray; }
+    #students .col-12 .items span.line {
+      margin-right: 10px;
+      color: #33333D;
+      text-decoration: line-through; }
+    #students .col-12 .items span.bold {
+      font-weight: bold;
+      color: #F68C20; }
+    #students .col-12 .items img.first {
+      width: 100%;
+      border-radius: 5px; }
+    #students .col-12 .items ul {
+      margin-top: 20px;
+      width: 100%;
+      display: flex;
+      list-style: none;
+      justify-content: space-around; }
+      #students .col-12 .items ul li {
+        color: #33333D;
+        font-size: .9rem; }
+
+@media only screen and (max-width: 1200px) {
+  #students .row.arrows {
+    display: none; } }
+footer {
+  color: white;
+  background: #282834; }
+  footer p {
+    margin: 0;
+    color: #91929A; }
+  footer ul#social {
+    margin: 0;
+    display: flex;
+    list-style: none; }
+    footer ul#social li {
+      margin-right: 20px; }
+      footer ul#social li img {
+        width: 25px;
+        height: 25px; }
+  footer .line {
+    background: #91929A;
+    width: 100%;
+    height: 1px; }
+  footer ul {
+    margin-top: 40px;
+    list-style: none; }
+    footer ul li {
+      margin-bottom: 10px;
+      color: #91929A; }
+
+/*# sourceMappingURL=course_page.css.map */
